@@ -22,7 +22,8 @@ df = pd.read_csv("Data/rappler-2024-cleaned-st.csv")
 api_key = open('Data/openaiapikey.txt').read()
 SKLLMConfig.set_openai_key(api_key)
 
-api_key = open('Data/openaiapikey.txt').read()
+api_key = st.secrets['api_key']
+# api_key = open('Data/openaiapikey.txt').read()
 client = OpenAI(api_key=api_key)
 
 def extract_keywords(text):
