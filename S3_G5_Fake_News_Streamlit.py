@@ -27,7 +27,7 @@ nltk.download('wordnet') # Downloads the WordNet lemmatizer data
 
 st.set_page_config(layout='wide')
 
-api_key = st.secrets["api_key"]##  open('openaiapikey.txt').read() ##
+api_key = "sk-proj-vNMIZvaAduXZZcK0P20tT3BlbkFJfFjOAkxcfpIHUPNQ1ajr" ##  open('openaiapikey.txt').read() ##
 client = OpenAI(api_key=api_key)
 SKLLMConfig.set_openai_key(api_key)
 
