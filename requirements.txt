@@ -1,0 +1,10 @@
+numpy
+pandas
+streamlit
+matplotlib
+seaborn
+nltk
+openai
+scikit-llm
+altair
+wordcloud
